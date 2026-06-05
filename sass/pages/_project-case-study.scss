@@ -1,0 +1,203 @@
+.project-cs-hero {
+  color: #fff;
+  background: linear-gradient(
+      to right,
+      rgba($themeClrPrimary, 0.8),
+      rgba($themeClrPrimary, 0.8)
+    ),
+    url(../../assets/svg/common-bg.svg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+
+  @include respond(phone) {
+    height: unset;
+    min-height: unset;
+  }
+
+  &__content {
+    padding: 25rem 0 17rem 0;
+    max-width: 90rem;
+    width: 92%;
+    margin: auto;
+
+    @include respond(phone) {
+      padding: 19rem 0 13rem 0;
+      margin: auto;
+      position: static;
+      transform: translate(0, 0);
+    }
+  }
+
+  &__info {
+    margin: 3rem auto 0 auto;
+    max-width: 80rem;
+  }
+  &__cta {
+    margin-top: 5rem;
+    text-align: center;
+  }
+}
+
+.project-details {
+  &__content {
+    padding: 8rem 0;
+    max-width: 90rem;
+    margin: auto;
+
+    &-title {
+      font-weight: 700;
+      font-size: 2.8rem;
+      margin-bottom: 3rem;
+      @include respond(phone) {
+        font-size: 2.4rem;
+      }
+    }
+  }
+
+  &__showcase-img-cont {
+    width: 100%;
+    margin-bottom: 6rem;
+
+    .projects__row-img-cont {
+      overflow: visible;
+      padding: 2rem 2rem 3.5rem;
+    }
+
+    .projects__laptop-preview {
+      position: relative;
+      overflow: hidden;
+    }
+
+    .projects__laptop-video {
+      position: absolute;
+      left: var(--laptop-screen-left, 15.1%);
+      top: var(--laptop-screen-top, 8%);
+      width: var(--laptop-screen-width, 69.8%);
+      height: var(--laptop-screen-height, 78%);
+      background: #000;
+      object-fit: fill;
+    }
+
+    .projects__phone-placeholder {
+      min-height: 47rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem 2rem 4rem;
+    }
+
+    .projects__phone {
+      width: 20rem;
+      height: 44.6rem;
+      border: 0.35rem solid #111;
+      border-radius: 2.2rem;
+      background: #111;
+      box-shadow: 0 2.4rem 4rem rgba(#000, 0.2);
+      padding: 2.2rem 0.55rem;
+      position: relative;
+    }
+
+    .projects__phone-speaker {
+      width: 4.8rem;
+      height: 0.5rem;
+      border-radius: 1rem;
+      background: #333;
+      position: absolute;
+      top: 0.85rem;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    .projects__phone-screen {
+      height: 100%;
+      border-radius: 1.7rem;
+      background: #071225;
+      overflow: hidden;
+    }
+
+    .projects__phone-screen-media {
+      width: 100%;
+      height: 100%;
+      display: block;
+      object-fit: fill;
+      object-position: top center;
+    }
+  }
+
+  &__showcase-img {
+    width: 100%;
+    display: block;
+    object-fit: fill;
+  }
+  &__content-main {
+    width: 100%;
+    max-width: 70rem;
+    margin: auto;
+  }
+  &__desc {
+    margin: 0 0 7rem 0;
+
+    &-para {
+      font-size: 1.8rem;
+      line-height: 1.7;
+      color: grey;
+      margin-bottom: 2rem;
+    }
+  }
+  &__tools-used {
+    margin: 0 0 7rem 0;
+
+    &-list {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    &-item {
+      padding: 1rem 2rem;
+      margin-bottom: 1.5rem;
+      margin-right: 1.5rem;
+      font-size: 1.6rem;
+      background: rgba(#999, 0.2);
+      border-radius: $commonBorderRadius;
+      font-weight: 600;
+      color: #777;
+    }
+  }
+  &__links {
+    margin: 0 0;
+
+    &-actions {
+      display: flex;
+      align-items: center;
+      gap: 1.6rem;
+      flex-wrap: nowrap;
+    }
+
+    &-btn {
+      margin: 0;
+      min-width: 0;
+      flex: 1 1 0;
+      padding-left: 2rem;
+      padding-right: 2rem;
+      font-size: 1.25rem;
+      letter-spacing: 1px;
+      text-align: center;
+      white-space: nowrap;
+
+      @include respond(phone) {
+        flex: 1 1 0;
+        width: auto;
+        margin: 0;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        font-size: 1.05rem;
+        letter-spacing: 0.5px;
+        text-align: center;
+      }
+
+      &:last-child {
+        margin: 0;
+      }
+    }
+  }
+}

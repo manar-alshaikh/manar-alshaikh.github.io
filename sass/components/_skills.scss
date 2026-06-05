@@ -1,0 +1,24 @@
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  &__skill {
+    padding: 1rem 2rem;
+    margin-bottom: 1.5rem;
+    margin-right: 1.5rem;
+    font-size: 1.6rem;
+    background: rgba(#999, 0.2);
+    border-radius: $commonBorderRadius;
+    font-weight: 600;
+    color: #777;
+    transform: translateY(0);
+    transition: transform 0.25s ease, box-shadow 0.25s ease,
+      background 0.25s ease, color 0.25s ease;
+
+    &:hover {
+      transform: translateY(-0.4rem);
+      background: rgba($themeClrPrimary, 0.12);
+      box-shadow: 0 1rem 2rem rgba($themeClrPrimary, 0.18);
+      color: $themeClrPrimary;
+    }
+  }
+}

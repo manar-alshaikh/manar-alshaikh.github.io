@@ -1,0 +1,186 @@
+{
+  "site": {
+    "name": "Manar Alshaikh",
+    "role": "Software Engineer & Full-Stack Developer",
+    "profileImage": "assets/png/profile.png",
+    "footerDescription": "Software engineer and full-stack developer focused on clean interfaces, practical systems, mobile experiences, and user-friendly digital solutions.",
+    "socialLinks": [
+      {
+        "label": "LinkedIn",
+        "url": "https://www.linkedin.com/in/manar-alshaikh-b335bb245",
+        "icon": "assets/png/linkedin-ico.png"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/manar-alshaikh",
+        "icon": "assets/png/github-ico.png"
+      }
+    ]
+  },
+  "projects": [
+    {
+      "slug": "ar-simulator",
+      "title": "AR Simulator",
+      "description": "A mobile augmented reality training simulator for enterprise dog-handling workflows, built with Flutter, Unity AR, AWS services, analytics, quizzes, and multilingual support.",
+      "device": "phone",
+      "video": "assets/video/ar-simulator.mp4",
+      "overview": [
+        "AR Simulator is an enterprise-focused mobile application developed as part of the KICK Program under AWS supervision. The solution was created for MOI to support dog-handler training through an interactive augmented reality experience.",
+        "The application combines a Flutter mobile interface with Unity-powered AR scenes. Different roles, including handlers, instructors, admins, visitors, and guests, can access role-specific training flows, 3D dog models, equipment previews, quizzes, leaderboards, progress tracking, notifications, analytics, and admin management tools.",
+        "The backend uses AWS cloud services for authentication, APIs, database storage, translation, AI-assisted quiz generation, and deployment resources. Multilingual support is handled with AWS Translate, translation caching, and Amazon Bedrock review to improve accessibility.",
+        "This project helped me practice mobile UI, AR integration, cloud architecture, role-based access, analytics, and a larger production-style workflow across frontend, backend, and 3D components."
+      ],
+      "tools": [
+        "Flutter",
+        "Dart",
+        "Unity",
+        "C#",
+        "AR Foundation",
+        "ARCore",
+        "ARKit",
+        "XR Interaction Toolkit",
+        "Flutter Unity Widget",
+        "Provider",
+        "GoRouter",
+        "AWS",
+        "AWS CDK",
+        "TypeScript",
+        "API Gateway",
+        "AWS Lambda",
+        "DynamoDB",
+        "Amazon Cognito",
+        "Amazon S3",
+        "CloudFront",
+        "AWS Translate",
+        "Amazon Bedrock",
+        "REST APIs",
+        "Git",
+        "GitHub"
+      ],
+      "links": {
+        "hosted": "",
+        "code": "",
+        "unavailableLabel": "Coming Soon"
+      }
+    },
+    {
+      "slug": "social-network",
+      "title": "Social Network",
+      "description": "A full-stack social networking web application where users can create profiles, share posts, join groups, chat in real time, and receive notifications.",
+      "device": "laptop",
+      "video": "assets/video/soical-network.mp4",
+      "overview": [
+        "Social Network is a full-stack web application inspired by community platforms. Users can register, log in, create profiles, share posts, follow other users, join groups, chat in real time, and receive notifications across the platform.",
+        "The application was designed around a themed community experience, such as Girls First: Love Island Fashion Review, where users can post fashion opinions, review outfits, comment on shared content, join discussions, and interact with other members.",
+        "The platform includes public and private profiles, follower requests, post privacy options, comments, media uploads, group invitations, group events, private messages, group chats, and real-time notifications.",
+        "This project helped me practice building a larger full-stack application with a structured frontend, backend API, database, authentication, WebSocket communication, Docker setup, and SQLite migrations."
+      ],
+      "tools": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Vue.js",
+        "Go",
+        "SQLite",
+        "REST API",
+        "WebSocket",
+        "Authentication",
+        "Sessions & Cookies",
+        "Docker",
+        "Responsive Design",
+        "Git",
+        "GitHub"
+      ],
+      "links": {
+        "hosted": "",
+        "code": "https://github.com/manar-alshaikh/social-network"
+      }
+    },
+    {
+      "slug": "graphql",
+      "title": "GraphQL",
+      "description": "A GraphQL profile dashboard that uses authentication, API queries, and SVG charts to display Reboot01 school progress data.",
+      "device": "laptop",
+      "video": "assets/video/graphql.mp4",
+      "overview": [
+        "GraphQL is a personal profile dashboard built with HTML, CSS, and JavaScript. It uses the Reboot01 GraphQL API to fetch and display profile data such as user information, XP, grades, audits, and progress.",
+        "The app includes a login page with JWT authentication, supports login with username or email, handles invalid login errors, and lets the user log out securely.",
+        "SVG statistic graphs visualize the learning journey and achievements, making the profile data easier to scan and understand.",
+        "This project helped me practice GraphQL queries, authentication flow, API-driven interfaces, error handling, and visualizing data in the browser."
+      ],
+      "tools": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "GraphQL",
+        "JWT",
+        "Authentication",
+        "API",
+        "SVG Charts",
+        "Netlify",
+        "Git"
+      ],
+      "links": {
+        "hosted": "https://graphql-reboot01-m.netlify.app",
+        "code": "https://github.com/manar-alshaikh/graphql"
+      }
+    },
+    {
+      "slug": "mini-framework",
+      "title": "Mini Framework",
+      "description": "A lightweight JavaScript framework built from scratch with DOM abstraction, routing, state management, and a TodoMVC example.",
+      "device": "laptop",
+      "video": "assets/video/mini-framwork.mp4",
+      "overview": [
+        "Mini Framework is a JavaScript project where I built a small frontend framework from scratch without using React, Vue, Angular, or another UI library.",
+        "The framework includes DOM abstraction, routing, state management, and custom event handling so applications can be organized around reusable structure instead of manual DOM updates everywhere.",
+        "I also used the framework to build a TodoMVC application. The app supports adding tasks, editing tasks, deleting tasks, marking tasks as completed, filtering by route, clearing completed tasks, and keeping the UI updated through shared state.",
+        "This project helped me understand what frontend frameworks do internally and strengthened my knowledge of state, routing, rendering, and browser events."
+      ],
+      "tools": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "DOM",
+        "Routing",
+        "State Management",
+        "Event Handling",
+        "TodoMVC",
+        "Git"
+      ],
+      "links": {
+        "hosted": "https://agent-6a220bf4473a246--mini-framework-reboot01-m.netlify.app/",
+        "code": "https://github.com/manar-alshaikh/mini-framework"
+      }
+    },
+    {
+      "slug": "make-your-game",
+      "title": "Make Your Game",
+      "description": "A single-player JavaScript platform game built with DOM-based movement, animation, collision logic, scoring, sound, and game states.",
+      "device": "laptop",
+      "video": "assets/video/make-your-game.mp4",
+      "overview": [
+        "Make Your Game is a single-player JavaScript platform game built with plain HTML, CSS, and JavaScript. The game does not use canvas or a frontend framework, so movement, animation, collision, and UI updates are handled through the DOM.",
+        "The game includes keyboard controls, character movement, jumping, attacking, enemies, coins, food, treasure boxes, lives, score, timer, sound effects, background music, win and lose states, and a pause menu with continue and restart options.",
+        "Performance was an important part of the project. The game uses requestAnimationFrame, transform-based movement, and layered backgrounds to keep animation smooth and close to 60 FPS.",
+        "This project helped me practice game loops, collision detection, responsive controls, animation performance, and organizing interactive browser logic without relying on a framework."
+      ],
+      "tools": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "DOM",
+        "requestAnimationFrame",
+        "Keyboard Events",
+        "Game Logic",
+        "Collision Detection",
+        "Animation",
+        "Git"
+      ],
+      "links": {
+        "hosted": "https://agent-6a2206a732a2c76--make-your-game-reboot01-m.netlify.app/",
+        "code": "https://github.com/manar-alshaikh/make-your-game"
+      }
+    }
+  ]
+}
